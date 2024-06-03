@@ -82,6 +82,7 @@ body {
     padding: 20px;
     margin-top: 20px;
     height: 850px;
+    margin: 20px;
 }
 h1{
     color: rgb(0, 173, 130);
@@ -343,6 +344,7 @@ button:hover{
     position: relative;
     border-radius: 6px;
     text-align: center;
+    margin: 10px;
 }
 
 .content:hover {
@@ -417,6 +419,9 @@ button:hover{
     }
     .content b{
         font-size: 14px;
+    }
+    #education.card{
+        margin: 10px;
     }
 }
 
