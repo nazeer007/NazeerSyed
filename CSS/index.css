@@ -410,11 +410,11 @@ button:hover{
     h2.year{
         font-size: 18px;
     }
+    .content{
+        text-align: center;
+    }
     .content b{
         font-size: 14px;
-    }
-    #university{
-        line-height: -55px;
     }
 }
 
