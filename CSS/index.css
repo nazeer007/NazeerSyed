@@ -100,7 +100,7 @@ button:hover{
     color: white;
     opacity: 1;
 }
-.row .card{
+#home.card{
     display: grid;
     grid-template-columns: auto;
     gap: 1rem;
@@ -114,7 +114,17 @@ button:hover{
 #home{
     color: white;
 }
-
+@media screen and(max-width:500px) {
+    #home.card{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        height: 100px;
+        margin: 10px;
+        padding: 10px;
+    }
+}
 /* About */
 
 .about-card {
@@ -177,7 +187,7 @@ button:hover{
         width: 100%;
     }
     .about{
-        height: auto;
+        height: 600px;
     }
     .about-card .cards{
         height: auto;
@@ -760,6 +770,10 @@ video {
     .contact-section p{
         font-size: 14px;
     }
+    .contact-card{
+        padding: 10px;
+        margin: 10px;
+    }
 }
 
 /* Footer */
@@ -842,7 +856,7 @@ footer img:hover{
 }
 /* Reducing the margin according to mobile screen */
 @media screen and (max-width:500px) {
-    .row .card, .about, .skills, .service, .projects, .contact-card .timeline{
+    #home.card, .about, .skills, .service, .projects, .contact-card .timeline{
         padding: 10px;
         margin: 10px;
     }
