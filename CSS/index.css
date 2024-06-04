@@ -417,6 +417,9 @@ button:hover{
     .content{
         text-align: center;
     }
+    .content img{
+        width: 50px;
+    }
     .content b{
         font-size: 14px;
     }
